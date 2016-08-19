@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.164.96.41:6000/haitao-app-test?characterEncoding=UTF-8
+    username: matter_test
+    password: IOewj89dCw13Cd
+
