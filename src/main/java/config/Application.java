@@ -6,14 +6,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import runner.EnableMmb;
 
 /**
  * Created by hzhubin15 on 2016/8/19.
  */
 @SpringBootApplication
-@EnableScheduling
+//@EnableScheduling
 //@ComponentScan
 @EnableAutoConfiguration
+@EnableMmb
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
